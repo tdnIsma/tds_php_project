@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.divGeral {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(79,71,137);
+    background: linear-gradient(137deg, rgba(79,71,137,1) 0%, rgba(32,19,53,1) 100%);
+}
+
+.internoGeral {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.internoInfos {
+    background-color: #4F4789;
+    border-radius: 20px;
+    padding: 50px 80px;
+    margin-top: 200px;
+    width: 500px;
+    border: 2px solid white;
+    -webkit-box-shadow: 0px 0px 17px 6px rgba(32,19,53,0.71); 
+    box-shadow: 0px 0px 17px 6px rgba(32,19,53,0.71);
+}
+
+.titulo {
+    font-size: 2em;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.formBox {
+    text-align: center;
+}
+
+.campos {
+    display: flex;
+    margin: 15px 0;
+}
+
+.campos label {
+    width: 30%;
+} 
+
+.campos input, .horario {
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 70%;
+    color: white;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.horario {
+    text-align: left;
+}
+
+
+.campos input::placeholder {
+    color: #8079b4;
+    font-size: 0.9rem;
+    padding-left: 10px;
+}
+
+.campos select {
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 75%;
+    color: white;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.campos select option {
+    color: white;
+    background-color: #4F4789;
+    padding: 10px;
+}
+
+.subtitulos {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.btn {
+    background-color: #FF9965;
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #ca7348;
+    transition: 1s ease;
+}
+
+.msgSucesso {
+    color: #5adb64;
+    text-align: center;
+    padding-top: 30px;
+    display: block;
+}
